@@ -3,6 +3,7 @@ import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles({
     dev:{
+        marginTop:0,
         marginBottom: 10,
         display:'flex',
         width: '100vw',
@@ -21,4 +22,4 @@ const Developer = () => {
     )
 }
 
-export default Developer
+export default Developer;

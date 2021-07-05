@@ -4,11 +4,11 @@ import Form from './form'
 
 const useStyles = makeStyles({
     component: {
-        height: '100vh',
+        height: '95vh',
         display: 'flex',
         alignItems: 'center',
         width: '65%',
-        margin: '0 auto'
+        margin: '0 auto',
     },
     leftContainer: {
         height: '80%',

@@ -10,6 +10,7 @@ import CloudIcon from '@material-ui/icons/Cloud';
 const useStyles = makeStyles({
     component:{
         margin: 50,
+        marginTop: 20
     },
     row:{
         padding: 10,
