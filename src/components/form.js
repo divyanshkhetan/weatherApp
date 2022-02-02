@@ -53,6 +53,7 @@ const Form = () => {
                 <span className={styles.gap}></span>
 
                 <Button onClick={() => handleClick()} className={styles.button}
+                    style={{ background: '#e67e22' }}
                     variant="contained">
                     Get Weather
                 </Button>
