@@ -41,6 +41,7 @@ const Form = () => {
                     label='City'
                     className={styles.input}
                     value={city}
+                    style={{ marginRight: '20px' }}
                 />
                 <TextField
                     inputProps={{ className: styles.input }}
@@ -48,12 +49,13 @@ const Form = () => {
                     label='Country'
                     className={styles.input}
                     value={country}
+                    style={{ marginRight: '20px' }}
                 />
 
                 <span className={styles.gap}></span>
 
                 <Button onClick={() => handleClick()} className={styles.button}
-                    style={{ background: '#e67e22' }}
+                    style={{ background: '#e67e22', marginTop: '10px' }}
                     variant="contained">
                     Get Weather
                 </Button>
