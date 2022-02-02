@@ -50,6 +50,8 @@ const Form = () => {
                     value={country}
                 />
 
+                <span className={styles.gap}></span>
+
                 <Button onClick={() => handleClick()} className={styles.button}
                     variant="contained">
                     Get Weather
