@@ -1,0 +1,19 @@
+.component{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+}
+.leftContainer{
+    height: 80%;
+    width: 30%;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+.rightContainer{
+    background: linear-gradient(to right, #e74c3c, #e67e22);
+    height: 80%;
+    width: 70%;
+}

@@ -1,0 +1,20 @@
+.input{
+    color: #fff;
+    margin-right: 15px;
+}
+
+.gap{
+    width: 15px;
+}
+
+.component{
+    padding: 10px;
+}
+
+.button{
+    width: 150;
+    height: 40;
+    background: #e67e22;
+    color: #fff;
+    margin-top: 5px;
+}

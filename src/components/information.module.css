@@ -1,0 +1,16 @@
+.component{
+    margin: 50;
+    margin-top: 20;
+    padding: 15px;
+}
+.row{
+    padding: 10;
+    font-size: 20;
+    letter-spacing: 2;
+}
+.spanValue{
+    color:#fff;
+}
+.icon{
+    margin-right: 15;
+}
