@@ -40,14 +40,16 @@ const Form = () => {
                     onChange={(e) => handleCityChange(e.target.value)}
                     label='City'
                     className={styles.input}
+                    value={city}
                 />
                 <TextField
                     inputProps={{ className: styles.input }}
                     onChange={(e) => handleCountryChange(e.target.value)}
                     label='Country'
                     className={styles.input}
+                    value={country}
                 />
-                <span className={styles.gap}></span>
+
                 <Button onClick={() => handleClick()} className={styles.button}
                     variant="contained">
                     Get Weather
